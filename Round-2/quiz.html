@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CID Event</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAweome CDN Link for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    
+</head>
+<body>
+    <!-- start Quiz button -->
+    <header>
+        <div class="csesa">
+            <img src="./imgs/LOGO_White.png" alt=""> 
+        </div>
+        <h2>Shri Sant Gajanan Maharaj College Of Engineering Shegoan</h2>
+        <img src="./imgs/logocid.png" alt="">
+    </header>
+    <div class="start_btn"><button> Start </button></div>
+<div class="main">
+    <!-- Info Box -->
+    <div class="info_box">
+        <div class="info-title"><span>Some Rules of this Round</span></div>
+        <div class="info-list">
+            <div class="info">1. You will have only <span>35 Minutes</span> to complete the round</div>
+            <div class="info">2. Every coding question has a online complier link</div>
+            <div class="info">3.You can run the code if you want on that complier.</div>
+            <div class="info">4. Solve the Puzzles using hint given bellow</div>
+            <div class="info">5. You'll get points on the basis of your correct answers.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Exit</button>
+            <button class="restart">Continue</button>
+        </div>
+    </div>
+    <!-- Quiz Box -->
+    <div class="quiz_box">
+        <header>
+            <div class="title"><strong>Round 2</strong></div>
+            <div class="timer">
+                <div class="time_left_txt">Time Left</div>
+                <div class="timer_sec">35:00</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+                <!-- Here I've inserted question from JavaScript -->
+                
+            </div>
+            <div class="answer">
+
+            </div>
+        </section>
+
+        <!-- footer of Quiz Box -->
+        <footer>
+            <div class="total_que">
+                <!-- Here I've inserted Question Count Number from JavaScript -->
+                
+            </div>
+            <div>
+                <button class="submit_btn">Submit</button>
+                <button class="next_btn" onclick="checkAnswer()">Next Question</button>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Result Box -->
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+            
+        </div>
+        <strong><span class="user_name" id="user_name" style="font-size:x-large;color:rgba(2, 71, 131, 0.788)" ></span></strong>
+       
+        <div class="complete_text">You've completed this Round!</div>
+        <div class="score_text">
+            <!-- Here I've inserted Score Result from JavaScript -->
+        </div>
+        <div class="buttons"> 
+           <!-- <button class="restart">Replay Quiz</button> -->
+            <button class="quit">Quit</button>
+        </div>
+    </div>
+     <img class="python" src="imgs/python.png" alt="">
+        <img class="py" src="imgs/java.png" alt="">
+        <img class="png" src="imgs/png.png" alt="">
+        <img class="png2" src="imgs/png2.png" alt="">
+</div>
+    <!-- Inside this JavaScript file I've inserted Questions and Options only -->
+    
+    <script src="js/questions.js"></script>
+
+    <!-- Inside this JavaScript file I've coded all Quiz Codes -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>
+</html>
